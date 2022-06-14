@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: #222;
+    /* overflow: hidden; */
 }
 
 .dvd-logo {
@@ -33,4 +34,5 @@ html, body {
 .dvd-subtitle {
     font-size: 1.2rem;
     margin: 0.5rem;
+    text-transform: uppercase;
 }
