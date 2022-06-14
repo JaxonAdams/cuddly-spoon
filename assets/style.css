@@ -1,0 +1,36 @@
+:root {
+    --color: tomato;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+
+.dvd-logo {
+    --x: 50;
+    --y: 50;
+    position: absolute;
+    top: calc(var(--x) * 1%);
+    left: calc(var(--y) * 1%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dvd-title {
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.dvd-subtitle {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
